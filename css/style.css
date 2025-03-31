@@ -15,6 +15,21 @@ body {
 box-shadow: -10px 10px 90px red;
 animation:  heart 0.6s linear infinite;
 }
+.text{display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    width: "700px";
+    & .love{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+}
 @keyframes heart {
     0% {
         transform:  rotate(-45deg) scale(1.00);
